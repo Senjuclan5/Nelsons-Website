@@ -13,8 +13,8 @@ body {
 }
 header {
     display:flex;
-    flex-direction;
-    justify-content;
+    justify-content: center;
+   
 }
 .contact {
     text-decoration: none;

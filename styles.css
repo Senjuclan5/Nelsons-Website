@@ -5,13 +5,10 @@
 }
 body {
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(224, 217, 217);
+    background-color: rgb(161, 160, 160);
 }
 .logo {
-    width:30%;
+    width:40%;
     hieght:50%;
 }
 header {

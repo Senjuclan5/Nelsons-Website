@@ -6,36 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="slideshow.css">
 </head>
 <body>
+    <header>
+        <img class="logo" src="images/logo.png 2.png" alt="">
+    </header>
     <div class="slider">
-        <div class="images">
-            <input type="radio" name="slide" id="img1" checked>
-            <input type="radio" name="slide" id="img2">
-            <input type="radio" name="slide" id="img3">
-            <input type="radio" name="slide" id="img4">
-            <input type="radio" name="slide" id="img5">
-            <input type="radio" name="slide" id="img6">
-            <input type="radio" name="slide" id="img7">
-
-            <img src="images/girliloveportico.jpg" class="m1" alt="img1">
-            <img src="images/welding.fff.jpg" class="m2" alt="img2">
-            <img src="images/germking.jpg.jpg" class="m3" alt="img3">
-            <img src="images/cruise-shirt.jpg" class="m4" alt="img4">
-            <img src="images/plane-shirt.jpg" class="m5" alt="img5">
-            <img src="images/yellow.jpg.jpg" class="m6" alt="img6">
-            <img src="images/koozie.jpg" class="m7" alt="img7">
+        <div id="hiddenRadio">
+            <input class = "hiddenControl" type="radio" name="slide" id="img1" checked>
+            <input class = "hiddenControl" type="radio" name="slide" id="img2">
+            <input class = "hiddenControl" type="radio" name="slide" id="img3">
+            <input class = "hiddenControl" type="radio" name="slide" id="img4">
+            <input class = "hiddenControl" type="radio" name="slide" id="img5">
+            <input class = "hiddenControl" type="radio" name="slide" id="img6">
+            <input class = "hiddenControl" type="radio" name="slide" id="img7">
         </div>
-            <div class="dots">
-                <label for="img1"></label>
-                <label for="img2"></label>
-                <label for="img3"></label>
-                <label for="img4"></label>
-                <label for="img5"></label>
-                <label for="img6"></label>
-                <label for="img7"></label>
+           <div id="sliderImagesContainer">
+            <img src="images/girliloveportico.jpg" class="sliderImages" id="activeImage" alt="img1">
+            <img src="images/welding.fff.jpg" class="sliderImages"  alt="img2">
+            <img src="images/germking.jpg.jpg" class="sliderImages"  alt="img3">
+            <img src="images/cruise-shirt.jpg" class="sliderImages"  alt="img4">
+            <img src="images/plane-shirt.jpg" class="sliderImages"  alt="img5">
+            <img src="images/yellow.jpg.jpg" class="sliderImages"  alt="img6">
+            <img src="images/koozie.jpg" class="sliderImages"  alt="img7">
+        </div>
+           <div id="sliderControl">
+            <label class="imgControl" for="img1" id="activeDot"></label>
+            <label class="imgControl" for="img2"></label>
+            <label class="imgControl" for="img3"></label>
+            <label class="imgControl" for="img4"></label>
+            <label class="imgControl" for="img5"></label>
+            <label class="imgControl" for="img6"></label>
+            <label class="imgControl" for="img7"></label>
             </div>
     </div>
+    <nav>
+        <ul>
+        <li><a class="contact" href="contact.html">Contact</a></li>
+    </ul>
+    </nav>
 
     
     

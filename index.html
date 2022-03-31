@@ -6,50 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="slideshow.css">
-    <script src="script.js"></script>
-</head>
-<body>
-    <header>
-        <img class="logo" src="images/logo.png 2.png" alt="">
-    </header>
-    <div class="slider">
-        <div id="hiddenRadio">
-            <input class = "hiddenControl" type="radio" name="slide" id="img1" checked>
-            <input class = "hiddenControl" type="radio" name="slide" id="img2">
-            <input class = "hiddenControl" type="radio" name="slide" id="img3">
-            <input class = "hiddenControl" type="radio" name="slide" id="img4">
-            <input class = "hiddenControl" type="radio" name="slide" id="img5">
-            <input class = "hiddenControl" type="radio" name="slide" id="img6">
-            <input class = "hiddenControl" type="radio" name="slide" id="img7">
-        </div>
-           <div id="sliderImagesContainer">
-            <img src="images/girliloveportico.jpg" class="sliderImages" id="activeImage" alt="img1">
-            <img src="images/welding.fff.jpg" class="sliderImages"  alt="img2">
-            <img src="images/germking.jpg.jpg" class="sliderImages"  alt="img3">
-            <img src="images/cruise-shirt.jpg" class="sliderImages"  alt="img4">
-            <img src="images/plane-shirt.jpg" class="sliderImages"  alt="img5">
-            <img src="images/yellow.jpg.jpg" class="sliderImages"  alt="img6">
-            <img src="images/koozie.jpg" class="sliderImages"  alt="img7">
-        </div>
-           <div id="sliderControl">
-            <label class="imgControl" for="img1" id="activeDot"></label>
-            <label class="imgControl" for="img2"></label>
-            <label class="imgControl" for="img3"></label>
-            <label class="imgControl" for="img4"></label>
-            <label class="imgControl" for="img5"></label>
-            <label class="imgControl" for="img6"></label>
-            <label class="imgControl" for="img7"></label>
-            </div>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
+</head>
+
+<body>
+  <div class="section">
+    <video autoplay loop muted plays-inline class="backvideo">
+      <source src="video.mp4" type="video/mp4">
+    </video>
+  
+  
+    <header>
+        <img class="logo" src="images/printJeannieLLCLogo.png" alt="">
+        <button class="emailbutton" type="submit">Email Now</button>
+    </header>
     
     <nav>
-        <ul>
-        <li><a class="contact" href="contact.html">Contact</a></li>
-    </ul>
-    </nav>
+      <ul>
+      <li><a class="contact" href="contact.html">Contact</a></li>
+  </ul>
+  </nav>
+  <p class="prints"> Previous Prints</p>
+  <div id="carabackground">
+    <section id="carousel" class="owl-carousel">
 
-    
+     
+    </section> 
+  </div>
+   
+   <section id="services">
+
+   </section>
+  <section id="testimonials">
+
+  </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="script.js"></script>
+  </div>
     
 </body>
 </html>

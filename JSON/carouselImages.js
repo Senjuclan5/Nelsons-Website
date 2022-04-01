@@ -2,7 +2,7 @@
 var carouselImages = [
     {
         "name" : "Girl I Love Portico",
-        "location": "../images/girliloveportico.jpg",
+        "location": "./../images/girliloveportico.jpg",
         "decription" : "Woman in Pink T-shirt with Print stating I Love Portico"
     },
     {

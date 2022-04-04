@@ -1,4 +1,4 @@
-import createcarouselItems from "./jsMod/carousel.js";
+import createCarouselItems from "./jsMod/carousel.js";
 //import createTestimonialItems from "./jsMod/testimonial.js";
 
 
@@ -11,8 +11,8 @@ $(document).ready(function(){
         autoplayHoverPause: true
     });
   });
-
-document.getElementById("carousel").innerHTML = createcarouselItems();
+console.log(createCarouselItems);
+document.getElementById("carousel").innerHTML = createCarouselItems();
 
 $('#slider').owlCarousel ({
   loop:true,

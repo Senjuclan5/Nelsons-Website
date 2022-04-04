@@ -11,7 +11,7 @@ $(document).ready(function(){
         autoplayHoverPause: true
     });
   });
-console.log(createCarouselItems);
+console.log(createCarouselItems());
 document.getElementById("carousel").innerHTML = createCarouselItems();
 
 $('#slider').owlCarousel ({

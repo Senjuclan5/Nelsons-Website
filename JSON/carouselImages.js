@@ -2,37 +2,37 @@
 var carouselImages = [
     {
         "name" : "Girl I Love Portico",
-        "location": "./images/girliloveportico.jpg",
+        "location": "../assets/images/girliloveportico.JPG",
         "decription" : "Woman in Pink T-shirt with Print stating I Love Portico"
     },
     {
         "name" : "Blue Welding Shirt",
-        "location" : "./images/blueWeldingShirt.jpg",
+        "location" : "../assets/images/blueWeldingShirt.JPG",
         "decription" : "Welder in Shirt We Printed his logo on"
     },
     {
         "name" : "cruise Shit",
-        "location" : "./images/cruise-shirt.jpg",
+        "location" : "../assets/images/cruise-shirt.JPG",
         "decription" : "Cruise Shirt"
     },
     {
         "name" : "Plane Shirt",
-        "location" : "./images/plane-shirt.jpg",
+        "location" : "../assets/images/plane-shirt.JPG",
         "decription" : "Plane Shirt"
     },
     {
         "name" : "Koozie",
-        "location" : "./images/koozie.jpg",
+        "location" : "../assets/images/koozie.JPG",
         "decription" : "Koozie"
     },
     {
         "name" : "Hoodie",
-        "location" : "./images/jaket.jpeg",
+        "location" : "../assets/images/jaket.JPEG",
         "decription" : "Hoodie"
     },
     {
         "name" : "Yellow Shirt",
-        "location" : "./images/yellowShirt.jpg",
+        "location" : "../assets/images/yellowShirt.JPG",
         "decription" : "Yellow Shirt"
     }
 

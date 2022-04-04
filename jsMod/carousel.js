@@ -13,7 +13,7 @@ function createCarouselItems(){
 
     })
 
-    console.log(carouselList)
+    console.log(carouselList);
     return carouselList.join("")
     
 }

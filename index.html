@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--who ever sees this after me, this is my first professional website lol so if you think the code is sloppy give me a break :)-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/1340bbd337.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+
+<body>
+  <div class="section">
+    <video autoplay loop muted plays-inline class="backvideo">
+      <source src="./assets/video.mp4" type="video/mp4">
+    </video>
+  </div>
+    <header>
+        <img class="logo" src="./assets/images/printJeannieLLCLogo.png" alt="">
+        <!--<button class="emailbutton" type="submit">Email Now</button>-->
+        <nav>
+          <a class="contact" href="#contactArea">Contact</a>
+        </nav>
+    </header>
+       
+  
+  <div id="carabackground">
+    <h3 class="prints"> Previous Prints</h3>
+    <!--<video autoplay loop muted plays-inline class="backvideo">
+      <source src="video.mp4" type="video/mp4">
+    </video>-->
+    <section id="carousel" class="owl-carousel">
+
+     
+    </section> 
+  </div>
+   
+   <section id="services">
+    <h2>Services</h2>
+     <ul class="boxes">
+      
+      <li >
+        
+              <p class="para">Are you Printing for a team?</p>
+              <p id="box1">For teams or a big business we recommend you buy in bulk.
+                When you buy in bulk you'll be sure to have plenty of xtras when new members come along.
+              </p>
+          </i>
+
+
+      </li>
+      <li>
+          
+              <p class="para">Customize Your Clothing</p>
+              <p id="box2">Give us the style you want printed on your clothes and we will do just that. 
+                Wether thats a logo, business name, family portrait we have you covered
+              </p>
+          </i>
+
+      </li>
+      <li >
+          
+              <p class="para">Shipping</p>
+              <p id="box3">You dont have to worry about driving anywhere to pick up your clothes we will ship it to your door steps.
+              </p>
+          </i>
+
+      </li>
+
+  </ul>
+      
+   </section>
+   <section id="testimonialArea">
+   <h3>Testimonials</h3>
+  
+    <ul id="container">
+      <li class="p1">
+        <p >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet obcaecati eveniet ratione perferendis reprehenderit. Sequi saepe, libero repudiandae quisquam impedit recusandae rem cupiditate vel dolores porro nostrum accusantium maxime dolorum.</p>
+      </li>
+      <li class="p2">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus nemo dicta consequuntur sint esse reprehenderit praesentium quisquam pariatur id fuga vel fugiat dolore voluptates minus animi aliquam nulla, dolorem incidunt.
+        </p>
+      </li>
+      <li class="p3">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit enim, officiis eos libero dicta laboriosam neque? Ad nostrum, nobis modi incidunt, sit beatae similique officiis autem optio ea, magni mollitia?
+        </p>
+      </li>
+    </ul>
+
+  </section>
+  <footer>
+   
+    <section id="contactArea">
+      <form action="processMsg.php" method="POST">
+        <div class="inputgroup">
+            <input name="name" type="text" id="name" required>
+            <label for="name"><i class="fa-solid fa-user"></i> Your Name</label>
+        </div>
+            <div class="inputgroup">
+            <input name="number" type="text" id="number" required>
+            <label for="number"><i class="fa-solid fa-phone"></i> Phone.No.</label>
+        </div>
+        <div class="inputgroup">
+            <input name="email" type="email" id="email" required>
+            <label for="email"><i class="fa-solid fa-envelope"></i> Email </label>
+        </div>
+        <div class="inputgroup">
+            <textarea name="message" id="message" rows="8" required></textarea>
+            <label for="message"><i class="fa-solid fa-message"></i> Your Message</label>
+            
+        </div>
+        <button type="submit"><i class="fa-solid fa-paper-plane"></i>SUBMIT</button>
+    </div>
+        
+    </form>
+    </section>
+    <section id="copyrightArea">
+        <p><label for="fa-copyright"><i class="fa-copyright fa-regular"></i></label>2022 Print Jeannie LLC. All Rights Reserved </p>
+        <p>Website By <a href="your portfolio">Daniel Roman</a></p>
+    </section>
+    
+  </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="script.js"></script>
+  </div>
+    
+</body>
+</html>

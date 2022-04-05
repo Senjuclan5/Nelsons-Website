@@ -9,13 +9,14 @@ body {
     background: transparent;
 }
 .section {
+    position: absolute;
     width: 100%;
     height: 100vh;
     
 }
 .backvideo {
     width: 100vw;
-    height: 190vh;
+    height: 254vh;
     object-fit: cover;
     position: absolute;
     left: 0;
@@ -49,23 +50,10 @@ header {
     margin-bottom: -4%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(97, 11, 176);
-    
-    
 }
 
-.emailbutton {
-    height: 35px;
-    width: 90PX;
-    border-radius: 3px;
-    margin-left: 600px;
-    margin-top: 70px;
-    font-weight: bold;
-}
-.emailbutton:hover {
-    background-color: rgb(34, 187, 188);
-    cursor: pointer;
-    transition: 1.2s;
-}
+
+
 li {
     list-style: none;
 }
@@ -81,9 +69,8 @@ li {
     flex-direction: row;
     align-items: flex-end;
     justify-content: space-around;
-    padding-top: 10%;
-    padding-right: 80%;
-    margin-top: 160px;
+    padding: 20px
+
 }
 
 #carabackground{
@@ -139,57 +126,76 @@ h2 {
     flex-direction: row;
     justify-content: space-around;
     align-items: stretch;
-    width: 100%;  
+    width: 90%;  
     padding-top: 30px;
 
     
     
 }
 
-/*#box2 {
-    padding-right: 10px;
-    padding-left: 5px;
-    width: 100%;
-    
-}*/
 
-#box1,#box2,#box3 {
+
+h3 {
+    font-size: 40px;
+    margin-left: 55px;
+    padding-bottom: 20px;
+}
+.p1, .p2, .p3 {
+    width: 25%;
+    font-family: sans-serif;
+    font-size: 25px;
+    margin-left: -10%;
+    
+}
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+label {
+    padding-left: 95%;
+    
+}
+    
+.logo2 {
+    width: 25%;
+    margin-left: 40%;
+    
+}
+
+
+#services .boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+#services .boxes li {
+    background-color: rgba(97, 11, 176, .45);
+    display: flex;
+    flex-direction: column;
     font-family: sans-serif;
     font-weight: normal;
     font-style: normal;
     font-size: 25px;
     color: black;
-    width: 377px;
-    height: 220px;
-    /*background-color: rgb(237, 244, 255);*/
-    padding: 2px;
-   
-   
-}
-#slider {
-    margin-top: 5%;
-}
-.content {
-    text-align: center;
+    width: 350px;
     padding: 10px;
-   
-    border-radius: 25px;
+    border-radius: 5px;
 }
-h3 {
-    font-size: 40px;
-    padding-left: 30px;
-}
-.content h3 {
-    font-size: 40px;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-}
-.content p {
-    line-height: 1.9;
-    font-size: 25px;
-    font-family: sans-serif;
-}
+
+
 /*.owl-dot {
     display: inline-block;
     height: 20px i !important;
@@ -219,5 +225,75 @@ h3 {
 /*h3 {
     font-size: 40px;
 }*/
+footer {
+    display: flex;
+    flex-direction: column;
+}
+footer #contactArea    {
+        width: 100%;
+        background-image: linear-gradient(rgba(243, 239, 239, 0.7), #5e73c0), url(./assets/images/printJeannieLLCLogo.png);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #contactArea {
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+footer form {
+    width: 90%;
+    max-width: 600px;
+}
+footer .inputgroup {
+    margin-bottom: 30px;
+    position: relative;
+}
+footer input, footer textarea {
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid rgb(14, 13, 13);
+    color: rgb(0, 0, 0);
+    background: transparent;
+    font-size: 15px;
+}
+footer label {
+
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    cursor: text;
+    transition: 0.2s;
+}
+footer button {
+    padding: 10px 0;
+    color: #5e73c0;
+    outline: none;
+    background: transparent;
+    border: 1px solid rgb(0, 0, 0);
+    color: black;
+    width: 100%;
+    cursor: pointer;
+}
+footer input:focus~label,
+footer input:valid~label,
+footer textarea:focus~label,
+footer textarea:valid~label {
+    top: -35px;
+    font-size: 14px;
+
+}
+
+#copyrightArea {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background:rgb(31, 163, 165);
+    color:rgb(0, 0, 0)
+}
 
     

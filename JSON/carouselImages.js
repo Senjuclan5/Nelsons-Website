@@ -2,7 +2,7 @@
 var carouselImages = [
     {
         "name" : "Support your community!",
-        "location": "../assets/images/girliloveportico.JPG",
+        "location": "./../assets/images/girliloveportico.JPG",
         "decription" : "Woman in Pink T-shirt with Print stating I Love Portico"
     },
     {

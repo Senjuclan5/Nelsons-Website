@@ -273,7 +273,7 @@ footer #contactArea    {
 
     #contactArea {
         padding-top: 5%;
-        padding-bottom: 5%;
+        padding-bottom: 20%;
     }
 footer form {
     width: 90%;
@@ -326,7 +326,6 @@ footer textarea:valid~label {
     justify-content: space-between;
     background:rgb(31, 163, 165);
     color:rgb(0, 0, 0)
-    padding-bottom: 30px;
 }
 @media only screen and (max-width:500px) {
     #services .boxes {
